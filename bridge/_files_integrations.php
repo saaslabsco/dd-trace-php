@@ -27,6 +27,8 @@ return [
     __DIR__ . '/../src/Integrations/Integrations/Curl/CurlIntegration.php',
     __DIR__ . '/../src/Integrations/Integrations/Mysqli/MysqliCommon.php',
     __DIR__ . '/../src/Integrations/Integrations/Mysqli/MysqliIntegration.php',
+    __DIR__ . '/../src/Integrations/Integrations/Mysql/MysqlCommon.php',
+    __DIR__ . '/../src/Integrations/Integrations/Mysql/MysqlIntegration.php',
     __DIR__ . '/../src/Integrations/Integrations/Mongo/MongoIntegration.php',
     __DIR__ . '/../src/Integrations/Integrations/MongoDB/MongoDBIntegration.php',
     __DIR__ . '/../src/Integrations/Integrations/Slim/SlimIntegration.php',
