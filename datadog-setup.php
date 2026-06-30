@@ -31,7 +31,7 @@ const RELEASE_VERSION = '@release_version@';
 // phpcs:disable Generic.Files.LineLength.TooLong
 // For testing purposes, we need an alternate repo where we can push bundles that includes changes that we are
 // trying to test, as the previously released versions would not have those changes.
-define('RELEASE_URL_PREFIX', (getenv('DD_TEST_INSTALLER_REPO') ?: "https://github.com/DataDog/dd-trace-php") . "/releases/download/" . RELEASE_VERSION . "/");
+define('RELEASE_URL_PREFIX', (getenv('DD_TEST_INSTALLER_REPO') ?: "https://github.com/saaslabsco/dd-trace-php") . "/releases/download/" . RELEASE_VERSION . "/");
 // phpcs:enable Generic.Files.LineLength.TooLong
 
 define('IS_WINDOWS', strncasecmp(PHP_OS, "WIN", 3) == 0);
