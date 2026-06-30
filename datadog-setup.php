@@ -26,7 +26,7 @@ const OPT_ENABLE_PROFILING = 'enable-profiling';
 const OPT_INI_SETTING = 'd';
 
 // Release version is set while generating the final release files
-const RELEASE_VERSION = '@release_version@';
+const RELEASE_VERSION = '0.99.1';
 
 // phpcs:disable Generic.Files.LineLength.TooLong
 // For testing purposes, we need an alternate repo where we can push bundles that includes changes that we are
